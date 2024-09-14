@@ -38,7 +38,7 @@ const userSchema = new Schema<TUser>({
     enum: Object.keys(USER_STATUS),
     default: USER_STATUS.ACTIVE,
   },
-  passwordChangedAt: {
+  passwordCreatedAt: {
     type: Date,
   },
 });
